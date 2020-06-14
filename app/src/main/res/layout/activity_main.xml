@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/app_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:padding="3dp">
+
+        <ImageView
+            android:background="@drawable/style_edit_text"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_launcher_image_foreground"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Databased"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_person"
+            android:padding="10dp"
+            tools:ignore="RtlCompat"
+            android:hint="Enter your name"/>
+
+        <EditText
+            android:id="@+id/etProfession"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_profession"
+            android:padding="10dp"
+            tools:ignore="RtlCompat"
+            android:hint="Enter your Profession"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etResidence"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_residence"
+            android:padding="10dp"
+            tools:ignore="RtlCompat"
+            android:hint="Enter your Residence"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:background="@drawable/style_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/ic_security"
+            android:padding="10dp"
+            tools:ignore="RtlCompat"
+            android:hint="Enter your Password"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/etAdd"
+                android:background="@drawable/style_edit_text"
+                android:layout_marginRight="20dp"
+                android:layout_width="50dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_add_new"/>
+
+            <ImageView
+                android:id="@+id/etNext"
+                android:background="@drawable/style_edit_text"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_navigate_next"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

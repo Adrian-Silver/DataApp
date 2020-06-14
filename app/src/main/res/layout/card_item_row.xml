@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="7dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="6dp"
+    android:background="@drawable/app_gradient"
+    >
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                app:srcCompat="@drawable/ic_person"
+                tools:ignore="VectorDrawableCompat" />
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvname"
+                    android:drawableStart="@drawable/ic_person"
+                    android:drawablePadding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textColor="@color/colorBtn"
+                    android:text="Username"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/tvprofession"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_profession"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textColor="@color/colorBtn"
+                    android:text="Profession"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/tvresidence"
+                    android:drawableStart="@drawable/ic_residence"
+                    android:drawablePadding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textColor="@color/colorBtn"
+                    android:text="Residence"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:id="@+id/tvpassword"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_security"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textColor="@color/colorBtn"
+                    android:text="Password"
+                    tools:ignore="RtlCompat" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:layout_marginRight="10dp">
+                <ImageView
+                    android:id="@+id/imgdelete"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_delete"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/imgedit"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_edit"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
